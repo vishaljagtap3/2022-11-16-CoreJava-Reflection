@@ -1,7 +1,7 @@
 package in.bitcode.shapes;
 
 public abstract class Shape {
-    private int x, y;
+    public int x, y;
 
     public Shape(int x, int y) {
         this.x = x;

@@ -3,6 +3,10 @@ package in.bitcode.shapes;
 public class Circle extends Shape{
     private int r;
 
+    public Circle() {
+        this(0, 0, 0);
+    }
+
     public Circle(int x, int y, int r) {
         super(x, y);
         this.r = r;

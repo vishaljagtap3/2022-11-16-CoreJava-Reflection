@@ -18,6 +18,16 @@ public class Product {
                 '}';
     }
 
+    public void display() {
+        System.out.println(id + " " + title  + " " + price);
+    }
+
+    public void update(int id, String title, int price) {
+        this.id = id;
+        this.title = title;
+        this.price = price;
+    }
+
     public int getId() {
         return id;
     }
